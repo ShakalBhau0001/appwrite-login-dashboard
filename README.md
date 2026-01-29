@@ -1,1 +1,1 @@
-# appwrite-login-dashboard
+# Appwrite-Login-Dashboard (Practice Project)
