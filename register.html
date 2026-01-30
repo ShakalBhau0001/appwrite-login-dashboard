@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- Appwrite SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@21.5.0/dist/iife/sdk.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <form class="login-form" id="registerForm">
+        <h1 class="login-title">Register</h1>
+
+        <div class="input-box">
+            <i class='bx bxs-user'></i>
+            <input type="text" id="name" placeholder="Full Name" required>
+        </div>
+
+        <div class="input-box">
+            <i class='bx bxs-envelope'></i>
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div class="input-box">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+
+        <button type="submit" class="login-button">Create Account</button>
+
+        <p id="message" style="margin-top:10px;"></p>
+
+        <p class="register">
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+    </form>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
