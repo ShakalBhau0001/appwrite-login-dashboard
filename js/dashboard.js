@@ -3,7 +3,7 @@
         const databases = new Appwrite.Databases(client);
 
         client
-            .setEndpoint('https://YOUR_APPWRITE_ENDPOINT/v1')
+            .setEndpoint('YOUR_APPWRITE_ENDPOINT')
             .setProject('YOUR_PROJECT_ID');
 
         const DATABASE_ID = "YOUR_DATABASE_ID";
