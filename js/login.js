@@ -1,9 +1,8 @@
 const client = new Appwrite.Client();
 const account = new Appwrite.Account(client);
 
-// 🔥 SET YOUR PROJECT DETAILS
 client
-    .setEndpoint('https://YOUR_APPWRITE_ENDPOINT/v1')
+    .setEndpoint('YOUR_APPWRITE_ENDPOINT')
     .setProject('YOUR_PROJECT_ID');
 
 const form = document.getElementById("loginForm");
