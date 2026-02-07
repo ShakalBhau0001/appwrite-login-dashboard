@@ -65,6 +65,17 @@ The goal of this project is to **learn backend-as-a-service authentication conce
    ```bash
    git clone https://github.com/<your-username>/appwrite-login-dashboard.git
    ```
+2. Configure Appwrite:
+- Create a project in Appwrite
+- Enable **Email/Password Authentication**
+- Copy your **Project ID** and **Endpoint**
+
+3. Update configuration:
+- Add your Appwrite credentials in the config file
+- **Do NOT expose secret keys in public repos**
+
+4. Run the project:
+- Open `index.html` (or run via local server)
 
 ---
 ## Configuration
@@ -78,7 +89,23 @@ Replace the following placeholders in JavaScript files with your own Appwrite de
 
 ---
 
-> ⚠️ **Note:**  
-> This project is created **for practice and learning purposes only**, to understand how frontend applications interact with a Backend-as-a-Service (BaaS) platform like Appwrite.
+## ⚠️ Security Notes
+
+- No admin or secret keys are committed
+- All credentials must be stored securely
+- This project is not production-ready
+- Created for learning authentication concepts only
 
 ---
+
+📚 Learning Outcomes
+
+Understanding Appwrite authentication
+
+Session-based access control
+
+Secure frontend-backend interaction
+
+Safe handling of user login flows
+
+--
