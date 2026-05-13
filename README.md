@@ -5,7 +5,6 @@ This project is designed as a **learning-focused authentication lab**,helping de
 The project intentionally avoids frameworks to focus on **core frontend + authentication concepts**.
 
 It focuses on:
-
 - Authentication workflows
 - Session-based access control
 - Secure login & logout handling
@@ -159,9 +158,16 @@ It is **not intended for production use** without additional security hardening.
 
 ---
 
-## Author
+## 🪪 Author
 
-> **Shakal Bhau**
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+> **Developer: Shakal Bhau**
+
+> **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
